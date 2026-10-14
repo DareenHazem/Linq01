@@ -42,6 +42,16 @@ namespace LINQAssignmentOne
             //    Console.WriteLine(p);
             //}
             #endregion
+
+            #region Question 05
+            //var Product = Source.ProductList
+            //                         .Select(p => new{ Name = p.ProductName, Price = p.UnitPrice, StockStatus = (0 < p.UnitsInStock) ? "Available" : "Out of Stock" });
+
+            //foreach (var p in Product)
+            //{
+            //    Console.WriteLine($"Product Name: {p.Name}, Price: {p.Price}, Stock Status: {p.StockStatus}");
+            //}
+            #endregion
         }
     }
 }
