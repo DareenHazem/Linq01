@@ -33,6 +33,15 @@ namespace LINQAssignmentOne
             //    Console.WriteLine(p);
             //}
             #endregion
+
+            #region Question 04
+            //var Products = Source.ProductList.Where(p => (0 < p.UnitsInStock && p.Category == "Spices & Condiments"));
+
+            //foreach (var p in Products)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            #endregion
         }
     }
 }
