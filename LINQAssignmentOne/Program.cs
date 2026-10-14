@@ -52,6 +52,16 @@ namespace LINQAssignmentOne
             //    Console.WriteLine($"Product Name: {p.Name}, Price: {p.Price}, Stock Status: {p.StockStatus}");
             //}
             #endregion
+
+            #region Question 06
+            //var ProductNames = Source.ProductList
+            //                         .Select((p,index) => $"{index+1}. {p.ProductName}").ToList();
+
+            //foreach (var p in ProductNames)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            #endregion
         }
     }
 }
