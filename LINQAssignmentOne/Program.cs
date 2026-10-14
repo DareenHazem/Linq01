@@ -14,6 +14,16 @@ namespace LINQAssignmentOne
             //    Console.WriteLine(p);
             //}
             #endregion
+
+            #region Question 02
+            //var ProductNames = Source.ProductList
+            //                         .Select(p => p.ProductName).ToList();
+            
+            //foreach (var p in ProductNames)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            #endregion
         }
     }
 }
